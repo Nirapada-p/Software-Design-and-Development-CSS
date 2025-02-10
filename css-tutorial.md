@@ -232,6 +232,23 @@ div > p {
 
 ### ผลการทดลอง
 ```html
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" class="menu-item">หน้าแรก</a></li>
+            <li><a href="#" class="menu-item" id="active">สินค้า</a></li>
+            <li><a href="#" class="menu-item">เกี่ยวกับเรา</a></li>
+            <li><a href="#" class="menu-item">ติดต่อ</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
+
 /* การใช้ Element Selector */
 nav {
     background-color: #880303;
@@ -269,23 +286,6 @@ nav > ul > li {
     background-color: #4992ff;
     border-radius: 2px;
 }
-
-<!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="#" class="menu-item">หน้าแรก</a></li>
-            <li><a href="#" class="menu-item" id="active">สินค้า</a></li>
-            <li><a href="#" class="menu-item">เกี่ยวกับเรา</a></li>
-            <li><a href="#" class="menu-item">ติดต่อ</a></li>
-        </ul>
-    </nav>
-</body>
-</html>
 
 ```
 [บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
