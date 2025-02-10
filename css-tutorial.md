@@ -248,7 +248,8 @@ div > p {
     </nav>
 </body>
 </html>
-
+```
+```css
 /* การใช้ Element Selector */
 nav {
     background-color: #880303;
