@@ -453,7 +453,7 @@ background-size: cover;
 </body>
 </html>
 ```
-```html
+```css
 .product-card {
     width: 300px;
     border-radius: 8px;
