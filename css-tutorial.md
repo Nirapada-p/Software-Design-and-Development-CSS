@@ -394,9 +394,146 @@ background-size: cover;
 
 ### ผลการทดลอง
 ```html
-[วางโค้ดที่นี่]
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="product-card">
+        <div class="product-image"></div>
+        <div class="product-info">
+            <h2 class="product-title">ชาไทย</h2>
+            <p class="product-price">฿150</p>
+            <p class="product-description">
+                กินแล้วดีดเหมือนม้า
+            </p>
+            <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+        </div>
+    </div>
+
+    <div class="product-card">
+        <div class="product-image2"></div>
+        <div class="product-info">
+            <h2 class="product-title">ชาเขียว</h2>
+            <p class="product-price">฿170</p>
+            <p class="product-description">
+                เด็กกินไม่ได้ ผู้ใหญ่กินดี คนแก่กินทุกวัน
+            </p>
+            <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+        </div>
+    </div>
+
+    <div class="product-card">
+        <div class="product-image3"></div>
+        <div class="product-info">
+            <h2 class="product-title">นมเย็น</h2>
+            <p class="product-price">฿50</p>
+            <p class="product-description">
+                นมเย็นกินแล้วสดชื่นมาก
+            </p>
+            <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+        </div>
+    </div>
+
+    <div class="product-card">
+        <div class="product-image4"></div>
+
+
+        <div class="product-info">
+            <h2 class="product-title">โกโก้</h2>
+            <p class="product-price">฿100</p>
+            <p class="product-description">
+                หอม ขม อร่อย 
+            </p>
+            <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+        </div>
+    </div>
+    
+</body>
+</html>
 ```
-[บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
+```html
+.product-card {
+    width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: white;
+}
+
+.product-image {
+    width: 100%;
+    height: 200px;
+    background-image: url('/CSS-HTML/LAB02/stylesheet/images/product.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.product-image2 {
+    width: 100%;
+    height: 200px;
+    background-image: url('/CSS-HTML/LAB02/stylesheet/images/product2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.product-image3 {
+    width: 100%;
+    height: 200px;
+    background-image: url('/CSS-HTML/LAB02/stylesheet/images/product3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.product-image4 {
+    width: 100%;
+    height: 200px;
+    background-image: url('/CSS-HTML/LAB02/stylesheet/images/product4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.product-info {
+    padding: 15px;
+}
+
+.product-title {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    color: #007bff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.product-description {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.product-button {
+    display: block;
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+
+.product-button:hover {
+    background: linear-gradient(to right, #0056b3, #003980);
+}
+
+```
+![image](https://github.com/user-attachments/assets/57c0b2f5-5cf8-49d9-a722-f21bcd399645)
+
 
 [](#การทดลองที่-4-การจัดการขนาดและระยะห่าง)
 ## การทดลองที่ 4: การจัดการขนาดและระยะห่าง
